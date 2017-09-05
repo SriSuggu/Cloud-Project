@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
+<!-- above set at the top of the file will set     -->
+<!-- the browser's rendering engine into           -->
+<!-- "Quirks Mode". Replacing this declaration     -->
+<!-- with a "Standards Mode" doctype is supported, -->
+<!-- but may lead to some differences in layout.   -->
+
+<html>
+<head>
+<script src="https://apis.google.com/js/client.js"></script>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.1.1.min.js"></script> 
+	<script type="text/javascript" src="canvasjs.min.js"></script></head>
+   <script type="text/javascript" src="data.js"></script>
+   </head>
+   
+
+<body>
+
+<p><div id="myOutput" style="text-align: center;"> </div><p>
+Enter Location:<input name="latvalue" id="lat">
+
+<body style="background-image: url('img1.jpg');background-size:100% 100 %">
+<center><p style="font-family:Courier; color:Blue; font-size: 40px;">Weather Forecast </p></center>
+<br>
+<p style="font-family:Courier; color:Black; font-size: 20px;">Enter a date:<p>
+<input type="date"   name="datevalue" id="datevalue">
+
+<p><button type="button" id="latlong"  onclick="weather()"/>Submit</button></p>
+
+
+	
+<p><div id="bonusmyOutput"></div><p>
+
+<center>
+  <div id="chartContainer2" style="height: 300px; width: 50%; ">
+  </div>
+	</center>
+
+   
+</body>
+
+</html>
